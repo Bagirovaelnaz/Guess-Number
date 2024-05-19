@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+  </head>
+  <body>
+    <form action="/" id="form">
+      <img class="star" src="star_11618857-removebg-preview.png" />
+      <h1>Log in</h1>
+      <div class="input-control">
+        <label for="email">Email address</label><br />
+        <input type="email" id="email" placeholder="helloworld@gmail.com" /><br />
+        <div class="error"></div>
+      </div>
+      <div class="input-control">
+        <label for="password">Password</label><br />
+        <input
+          type="password"
+          id="password-login"
+          placeholder="must be 8 characters"
+        /><br />
+        <i class="fa-solid fa-eye-slash password-icon"></i>
+        <!-- <i class="fa-solid fa-eye password-icon"></i> -->
+        <div class="error"></div>
+      </div>
+      <button type="submit" class="logIn">Log in</button>
+      <p>Or Login with</p>
+      <img class="icon-face" src="facebook-f-logo-white-background-21.jpg" />
+      <img class="icon-google" src="b786795a5bfba85a9d0422b015d2a460.jpg" />
+      <img class="icon-apple" src="apple-icon-4.png"/><br />
+      <span>Don't have an account? <a href="signup.html">Sign up</a></span>
+    </form>
+    <script src="login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+  }
+  form {
+    margin-left: 500px;
+    margin-top: 50px;
+  }
+  .star {
+    width: 100px;
+    height: 110px;
+    margin-left: 290px;
+  }
+  input {
+    border-radius: 5px;
+    padding: 7px;
+    padding-right: 190px;
+  }
+  p {
+    margin-left: 123px;
+    font-size: 17px;
+    margin-top: 25px;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  
+  h1 {
+    font-family: Poppins;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  label {
+    line-height: 30px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    font-size: 17px;
+  }
+  
+  .signUp{
+    width: Fixed (353px) px;
+    height: Fixed (56px) px;
+    top: 684px;
+    font-size: 18px;
+    left: 20px;
+    padding: 15px 152px 17px 152px;
+    gap: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    opacity: 0px;
+    background: rgba(0, 0, 0, 1);
+    color: white;
+  }
+  .logIn{
+    width: Fixed (353px) px;
+    height: Fixed (56px) px;
+    top: 684px;
+    font-size: 18px;
+    left: 20px;
+    padding: 15px 152px 17px 155px;
+    gap: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    opacity: 0px;
+    background: rgba(0, 0, 0, 1);
+    color: white;
+  }
+  .icon-face {
+    width: 40px;
+    height: 40px;
+    margin-right: 120px;
+    margin-top: 30px;
+  }
+  .icon-google {
+    width: 40px;
+    height: 40px;
+    margin-right: 120px;
+  
+  }
+  #aciqGoz{
+    position: relative;
+    bottom: 30px;
+    left: 300px;
+  }
+  #bagliGoz{
+    position: relative;
+    bottom: 30px;
+    left: 300px;
+  }
+  .icon-apple {
+    height: 50px;
+    width: 50px;
+  
+  }
+  span{
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  span a{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+  
+  }
+  .input-control.error{
+    border-color: #d90429;
+  }
+  .input-control.error input{
+    border-color: #d90429;
+  
+  }
+  .input-control.succes input{
+    border-color: #44af69;
+  }
+  
+  
